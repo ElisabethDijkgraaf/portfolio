@@ -1,30 +1,30 @@
 body{
-  font-family: helvetica; 
+    font-family: 'Work Sans', sans-serif;
 }
 
 
 h1{
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0px;
 
 }
 
 h4{
-  letter-spacing: 2px;
-  font-size: 21px;
-  line-height: 27px;
+    letter-spacing: 2px;
+    font-size: 21px;
+    line-height: 27px;
 }
 
 
 p{
-  letter-spacing: 2px;
-  font-size: 16px;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
 
 .white{
-  color: white;
+    color: white;
 }
 
 hr{
@@ -35,24 +35,21 @@ hr{
 }
 
 header {
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url('../images/london.jpg');
-  text-align: center;
-  color: white;
-  width: 100%;
-  height: 100vh; 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/london.jpg');
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section{
-  padding-top: 120px;
-  padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .full-width {
@@ -61,37 +58,36 @@ section{
 }
 
 .no-padding{
-  padding:0px;
+    padding:0px;
 
 }
 
 .green{
-  color: #00c1ad;
+    color: #00c1ad;
 }
 
 .green-b{
-  background-color:#00c1ad;
+    background-color:#00c1ad;
 }
 
 .blue{
-  color:#12e6f0; 
+    color:#12e6f0; 
 }
 
-
 .blue-b{
-  background-color: #12e6f0;
+    background-color: #12e6f0;
 }
 
 .img-next{
-  width: 100%;
+    width: 100%;
 }
 
 .display-inline{
-  display: inline-block;
+    display: inline-block;
 }
 
 .about{
-      background-color: #12e6f0;
+    background-color: #12e6f0;
 }
 
 /*//////////////////////////////nav/////////////////////////////////*/
@@ -112,7 +108,7 @@ section{
 
 .navbar-default {
     background-color: rgba(0, 243, 146, 0.52);
-  color: white;
+    color: white;
 }
 
 .navbar-default .navbar-brand {
@@ -141,19 +137,19 @@ section{
 /*//////////////////////////////header/////////////////////////////////*/
 
 .heading-b{
-  color: white;
-  background-color: #12e6f0;
+    color: white;
+    background-color: #12e6f0;
 }
 
 .heading-b:hover{
-  color:#12e6f0;
-  background-color: white;
+    color:#12e6f0;
+    background-color: white;
 
 }
 
 .title-heading{
-  position: absolute;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     text-shadow: 2px 3px 7px rgba(14, 5, 12, 0.7);
@@ -164,27 +160,28 @@ section{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-     line-height: 65px;
-     font-size:  45px;
+    line-height: 65px;
+    font-size:  45px;
+}
 
 
 /*//////////////////////////////about/////////////////////////////////*/
 
-
-}
-
-.about-b{
-    color: #12e6f0;
-    background-color: white;
+.about{
+    color: white;
+    background-color: #12e6f0;
+    height: 100vh;
 }
 
 #elisabethphoto{
     width: 181px;
 }
 
-/*//////////////////////////////skills/////////////////////////////////*/
+/*//////////////////////////////resume/////////////////////////////////*/
 
-
+.resume{
+    height: 100vh;
+}
 
 /*//////////////////////////////img-div/////////////////////////////////*/
 .text-image{
@@ -196,17 +193,11 @@ section{
 
 
 .cina-back{
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-image: url("../images/primrosehill.jpg");
-   background-repeat: no-repeat;
-       background-attachment: fixed;
-
+    background-size: cover;
+    background-image: url("../images/primrosehill.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-
 
 /*//////////////////////////////the game /////////////////////////////////*/
 
@@ -219,20 +210,18 @@ section{
     width: 198px;
 }
 
-
 .answer2{
-  margin-top: 4%
+    margin-top: 4%
 }
 
 .answer3{
     margin-top: 11%;
     margin-bottom: 6%;
     font-size: 18px;
-
 }
 
 .inputcompany{
-    background: black no-repeat right;
+    background: #00c1ad no-repeat right;
     border-radius: 0px!important;
     width: 190px;
     height: 28px;
@@ -241,6 +230,7 @@ section{
     color: white;
     padding-left: 13px;
 }
+
 pre{
     background: white;
     border-radius: 0px;
@@ -248,9 +238,8 @@ pre{
     width: 100%;
     display: inline-block;
     padding-left: 0px;
-    
-    
 }
+
 .box-pre{
     background: white;
     border-radius: 0px;
@@ -260,31 +249,25 @@ pre{
     padding-right: 0px;
 }
 
-
-
 /*//////////////////////////////contact/////////////////////////////////*/
 
 .vertical-align{
-  vertical-align: middle;
+    vertical-align: middle;
 }
-
-
-/*//////////////////////////////footer/////////////////////////////////*/
-
-
-
-.padding-footer{
-  padding:30px;
-}
-
-
 
 .links-contact {
     vertical-align: middle!important;
-    padding-left: 21px;
+    padding-left: 20px;
     letter-spacing: 2px;
-
 }
+
+/*//////////////////////////////footer/////////////////////////////////*/
+
+.padding-footer{
+    padding:5px;
+}
+
+
 
 
 

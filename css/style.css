@@ -36,7 +36,10 @@ hr{
 
 header {
     position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     background-position: center;
     background-image: url('../images/london.jpg');
     text-align: center;
@@ -170,7 +173,6 @@ section{
 .about{
     color: white;
     background-color: #12e6f0;
-    height: 100vh;
 }
 
 #elisabethphoto{
@@ -179,9 +181,7 @@ section{
 
 /*//////////////////////////////resume/////////////////////////////////*/
 
-.resume{
-    height: 100vh;
-}
+
 
 /*//////////////////////////////img-div/////////////////////////////////*/
 .text-image{
@@ -193,7 +193,10 @@ section{
 
 
 .cina-back{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     background-image: url("../images/primrosehill.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
